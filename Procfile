@@ -1,4 +1,4 @@
-web: gunicorn barbershop.wsgi:application --log-file --log-level debug
+web: gunicorn barbershop.wsgi
 python manage.py collectstatic --noinput
 python manage.py makemigrations --noinput
 python manage.py migrate --noinput
