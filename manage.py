@@ -11,7 +11,7 @@ def main():
         from django.core.management import execute_from_command_line
         
         from django.core.management.commands.runserver import Command as runserver
-        runserver.default_port =  os.environ.get("PORT") | "8080"
+        runserver.default_port = os.environ.get("PORT") | "8080"
 
         execute_from_command_line(sys.argv)
     except ImportError as exc:
