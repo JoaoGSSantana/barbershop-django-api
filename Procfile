@@ -1,3 +1,3 @@
 python manage.py makemigrations --noinput
 python manage.py migrate --noinput
-web: guinicorn barbershop.wsgi
+web: gunicorn barbershop.wsgi
