@@ -100,7 +100,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'CLIENT': {
-            "host": os.environ["MONGO_HOST"],
+            "host":"mongodb+srv://joaogsantana:Jogre1234@atividadeltp.sbg4gp8.mongodb.net/?retryWrites=true&w=majority",
             "name": "db-barbershop",
             "authMechanism": "SCRAM-SHA-1" #For atlas cloud db
             },
