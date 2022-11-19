@@ -65,13 +65,13 @@ CORS_ORIGIN_ALLOW_ALL=True
 CORS_ALLOWED_ORIGINS = [
    u'http://localhost:3000',
     "http://127.0.0.1:8000",
-    u'serene-refuge-29711.herokuapp.com'
+    'serene-refuge-29711.herokuapp.com'
 ]
 
 CORS_ORIGIN_WHITELIST = [
     u'http://localhost:3000',
     'http://127.0.0.1:8000',
-    u'serene-refuge-29711.herokuapp.com'
+    'serene-refuge-29711.herokuapp.com'
 
 ]
 
